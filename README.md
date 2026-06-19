@@ -1,4 +1,4 @@
-Otimização de Trajetória em Robôs Industriais utilizando PID e Algoritmo Genético
+##Otimização de Trajetória em Robôs Industriais utilizando PID e Algoritmo Genético
 Descrição
 
 Este projeto apresenta a implementação de um controlador PID otimizado por Algoritmo Genético (AG) para um sistema representativo de trajetória em robôs industriais.
