@@ -37,6 +37,18 @@ IAE = 0,05511;
 ## Gráficos
 Comparação entre os controladores
 
+Erro ao longo do tempo
+
+Convergência do Algoritmo Genético
+
+## Execução
+
+pip install -r requirements.txt
+
+
+
+
+
 
 
 
