@@ -18,32 +18,25 @@ O desenvolvimento foi realizado em Python e teve como objetivo comparar o desemp
 - DEAP
 
 ## Resultados obtidos
-## PID convencional
-Kp = 50;
-Ki = 30;
-Kd = 5;
-Tempo de acomodação = 5,52 segundos;
-Erro em regime = 0,00236;
-IAE = 0,66174;
-
-## PID otimizado por AG
-Kp = 201,47;
-Ki = 364,05;
-Kd = 20,56;
-Tempo de acomodação = 0,22 segundos;
-Erro em regime = 0;
-IAE = 0,05511;
+| Parâmetro               | PID Convencional | PID + AG |
+| ----------------------- | ---------------: | -------: |
+| Kp                      |               50 |   201,47 |
+| Ki                      |               30 |   364,05 |
+| Kd                      |                5 |    20,56 |
+| Tempo de acomodação (s) |             5,52 |     0,22 |
+| Erro em regime          |          0,00236 |        0 |
+| IAE                     |          0,66174 |  0,05511 |
 
 ## Gráficos
-Comparação entre os controladores
-
-Erro ao longo do tempo
-
-Convergência do Algoritmo Genético
+- Comparação entre os controladores
+- Erro ao longo do tempo
+- Convergência do Algoritmo Genético
 
 ## Execução
 
 pip install -r requirements.txt
+
+
 
 
 
